@@ -5,5 +5,5 @@ git config user.email userid+user@users.noreply.github.com
 git add .
 git remote add origin git@github.com:user/repo.git
 git remote add origin https://github.com/user/repo.git
-GIT_SSH_COMMAND='ssh -i git/key' git push -u origin master
+GIT_SSH_COMMAND='ssh -i key' git push -u origin master
 curl -s https://api.github.com/users/user | jq .id
